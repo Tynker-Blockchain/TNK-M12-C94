@@ -2,9 +2,9 @@
 
 from flask import Flask, render_template, request
 import os
-from time import time
-from blockchain import BlockChain, Miner
+from blockchain import BlockChain
 from conversion import getGasPrices
+from  miner import Miner
 
 STATIC_DIR = os.path.abspath('static')
 

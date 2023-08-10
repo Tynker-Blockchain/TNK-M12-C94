@@ -7,6 +7,7 @@ import os
 from time import time
 from blockchain import BlockChain, Miner
 from conversion import getGasPrices
+from  miner import Miner
 
 STATIC_DIR = os.path.abspath('static')
 

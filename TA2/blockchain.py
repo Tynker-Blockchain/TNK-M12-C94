@@ -1,7 +1,6 @@
 import hashlib
 import json
 from time import time
-import random
 
 def generateHash(input_string):
     hashObject = hashlib.sha256()
@@ -102,8 +101,4 @@ class Block:
             return "Add more transactions"
 
 
-# TA2: Create a Miner class
-class Miner():
-    def __init__(self, address):
-        self.address= address
-        self.walletBalance = 0    
+ 

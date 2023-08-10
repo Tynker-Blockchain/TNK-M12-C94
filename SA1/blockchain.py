@@ -1,7 +1,6 @@
 import hashlib
 import json
 from time import time
-import random
 
 def generateHash(input_string):
     hashObject = hashlib.sha256()
