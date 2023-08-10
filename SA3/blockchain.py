@@ -1,6 +1,6 @@
 import hashlib
+import json
 from time import time
-from blockchain import Block
 
 def generateHash(input_string):
     hashObject = hashlib.sha256()
