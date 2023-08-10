@@ -1,0 +1,53 @@
+/* Custom CSS styles go here */
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: #3498db;
+  font-family: 'Playfair Display', serif;
+}
+
+.modal-dialog {
+  max-width: 70%;
+  margin: 1.75rem auto;
+}
+
+.modal-content {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.modal-footer {
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #f39c12;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e67e22;
+}
+
+/* Set the same height for card images */
+.card-img-top {
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+}
